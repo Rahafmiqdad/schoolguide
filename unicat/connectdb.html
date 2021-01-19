@@ -1,0 +1,16 @@
+
+<?PHP
+$host="localhost";
+$un="root";
+$pw="";
+$db="srvtest";
+$tconn=mysqli_connect("$host","$un","$pw","$db");
+if(!$tconn)
+{
+	echo"Error:".mysqli_connect_error();
+}
+if($tconn)
+{
+	echo "connected";
+}
+?>

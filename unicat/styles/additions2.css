@@ -1,0 +1,20 @@
+.errors
+{
+	margin:150px auto;
+	max-width:550px;
+	z-index:0;
+	text-align:center;
+	border-style:solid;
+	border-radius:10px;
+	color:red;
+}
+.success
+{
+	margin:150px auto;
+	max-width:550px;
+	z-index:0;
+	text-align:center;
+	border-style:solid;
+	border-radius:10px;
+	color:green;
+}

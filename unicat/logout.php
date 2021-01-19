@@ -1,0 +1,9 @@
+<?PHP
+session_start();
+if($_SESSION['urname'])
+{
+	session_unset($_SESSION['urname']);
+	session_destroy($_SESSSION['urname']);
+	header("location:index.php");
+}
+?>
